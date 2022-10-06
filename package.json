@@ -6,8 +6,8 @@
     "scripts": {
         "lint": "eslint '*.js?(x)'",
         "start": "node server.js",
-        "test": "mocha",
-        "coverage": "nyc --reporter=json-summary mocha",
+        "test-mocha": "mocha",
+        "test": "nyc --reporter=json-summary mocha",
         "coverage:badge": "coverage-badge-creator"
     },
     "author": "",
